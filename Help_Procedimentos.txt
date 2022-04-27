@@ -874,6 +874,7 @@ Após instalação do Git segue seguintes comandos:
 	9) ls (lista arquivos)
 	10) git status (Serve para reportar com está meu repositório)
 	11) git add Help_Procedimentos.txt (Será adicionado arquivo no GIT)
+	12) git commit -m "Atualização Comandos Curso Git"   
 
 
 
