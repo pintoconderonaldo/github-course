@@ -1,0 +1,923 @@
+001 - INSTALAR O ANGULAR
+002 - CRIAR PROJETO NO ANGULAR
+003 - SUBIR AMBIENTE NO ANGULAR
+004 - CRIANDO OS COMPONENTES NO ANGULAR
+005 - CRIANDO MATERIAIS
+006 - CRIANDO SERVICE
+007 - SITE DICAS LOCAIS ANGULAR
+008 - INSTALACAO DO PYTHON
+008 - CRIAR MAQUINA VIRTUAL PYTHON
+009.01 -  INSTALAÇÃO DA MAQUINA VIRTUAL
+009.02 -  CRIACAO AMBIENTE VIRTUAL
+009.03 -  COMANDO PARA ATIVAR O AMBIENTE VIRTUAL
+009.04 -  COMANDO PARA DESATIVAR O AMBIENTE VIRTUAL
+010 - INSTALAR DJANGO
+011 - SUBIR SERVIDOR PYTHON (IR NO PROMPT)
+012 - CRIAR BANCO DE DADOS
+013 - ATUALIZAR AS MIGRAÇÕES NO PYTHON
+014 - CRIAR SECRET_KEY
+015 - SITE E CONFIGURACOES DICAS LOCAIS PYTHON
+016 - SENHAS
+100 - PENDENCIAS
+101 - HISTORICO ANTERIOR
+102 - LIMPEZA NA MAQUINA
+103 - LINK DE EMPREGOS
+104 - CARTEIRINHAS DO PLANO DE SAUDE
+105 - REFERENTE A EMPRESA
+106 - CURSO GIT
+
+038224791495726
+038224791522370
+
+market-level
+
+linx muda ads
+
+C:\Users\Ronaldo\adostec\webapp\src\assets\logo-linx
+
+
+'===============================================================================================================
+'                                       001 - INSTALAR O ANGULAR
+'===============================================================================================================
+
+	001.1 - npm install -g @angular/cli
+	
+	
+'===============================================================================================================
+'                                     002 - CRIAR PROJETO NO ANGULAR
+'===============================================================================================================
+	
+ 
+			002.1 - criar projeto comando ng new nome_projeto (adostec_web_angular) 
+	
+			ng new nome_projeto
+
+			RMDIR TEMP /S /Q - DELETAR PASTA
+			
+			
+'===============================================================================================================
+'                                     003 - SUBIR AMBIENTE NO ANGULAR
+'===============================================================================================================	
+	
+	
+	003.1 - ng serve
+	
+        C:\Users\Ronaldo\adostec\webapp
+	CD\Users\Ronaldo\adostec\adostec_web_angular
+
+http://localhost:4200/adostec-v1/#/login
+http://localhost:4200/adostec-v1/#/cadastro
+
+        cd\C:\Users\Ronaldo\adostec\webapp>
+
+http://localhost:4200/adostec-v1/#/dashboard
+
+
+
+'===============================================================================================================
+'                                     004 - CRIANDO OS COMPONENTES NO ANGULAR
+'===============================================================================================================
+
+
+	004.01 - ng g c ads-components/border (ou ng generate component) toolbar
+	004.02 - ng g c ads-components/button
+	004.03 - ng g c ads-components/button-help
+	004.04 - ng g c ads-components/button-toggle
+	004.05 - ng g c ads-components/card
+	004.06 - ng g c ads-components/chart
+	004.07 - ng g c ads-components/ckeckbox
+	004.08 - ng g c ads-components/container
+	004.09 - ng g c ads-components/datepicker
+	004.10 - ng g c ads-components/dialog
+	004.11 - ng g c ads-components/drag-drop
+	004.12 - ng g c ads-components/expansion
+	004.13 - ng g c ads-components/horizontal-info
+	004.14 - ng g c ads-components/input
+	004.15 - ng g c ads-components/input-search
+	004.16 - ng g c ads-components/input-select
+	004.17 - ng g c ads-components/input-select/input-option
+	004.18 - ng g c ads-components/list
+	004.19 - ng g c ads-components/menu
+	004.20 - ng g c ads-components/page-header
+	004.21 - ng g c ads-components/radio
+	004.22 - ng g c ads-components/select
+	004.23 - ng g c ads-components/side-bar
+	004.24 - ng g c ads-components/spinner
+	004.25 - ng g c ads-components/table
+	004.26 - ng g c ads-components/table/column
+	004.27 - ng g c ads-components/checkbox
+	004.28 - ng g c ads-components/tabs
+	004.29 - ng g c ads-components/tabs/tab
+	004.30 - ng g c ads-components/toaster
+	004.31 - ng g c ads-components/toolbar
+	004.32 - ng g c ads-components/tree
+	004.33 - ng g c ads-components/vertical-info
+	
+	
+'===============================================================================================================
+'                                     005 - CRIANDO MATERIAIS
+'===============================================================================================================	
+	
+
+	005.01 - npm i @ngx-translate/core
+	005.02 - npm i @ngx-translate/http-loader
+	005.03 - npm i @angular/material
+	005.04 - npm i @angular/material-moment-adapter
+	005.05 - npm i jspdf
+	005.06 - npm i ngx-mask
+	005.07 - npm i ngx-material-file-input
+	005.08 - npm i moment
+	005.09 - npm i chart
+	005.10 - npm i ng2-charts
+	005.11 - npm i ngx-currency
+	005.12 - npm i @angular/cdk
+	005.13 - npm i angular-i18n
+	005.14 - npm i angular-util
+	005.15 - npm i crypto-js
+
+npm i @angular/cdk/drag-dro
+	
+	
+'===============================================================================================================
+'                                     006 - CRIANDO SERVICE
+'===============================================================================================================
+
+
+	006.01 - ng generate service
+
+LinkedIn 
+Vagas.com
+Indeed
+	
+	
+'===============================================================================================================
+'                                     007 - SITE DICAS LOCAIS ANGULAR
+'===============================================================================================================	
+
+https://www.devmedia.com.br/angular-cli-como-criar-artefatos-do-angular/38250
+
+http://localhost:4200/#/adostec/dashboard
+
+
+968467617
+
+354702114817151
+
+995365464
+
+43033563791
+
+ritaanjjos@hotmail.com
+
+
+'===============================================================================================================
+'                                     008 - INSTALACAO DO PYTHON
+'===============================================================================================================
+
+          BAIXAR O PYTHON E FAZER DOWNLOAD (Instalar o Python)
+          (https://www.python.org/downloads/)
+          
+          
+'===============================================================================================================
+'                                     009 - CRIAR MAQUINA VIRTUAL PYTHON
+'===============================================================================================================
+
+
+	 009.01 -  INSTALAÇÃO DA MAQUINA VIRTUAL
+                   -----------------------------
+
+                    py -m pip install virtualenvwrapper-win
+
+
+         009.02 -  CRIACAO AMBIENTE VIRTUAL (pode ser qq diretorio)
+                   ------------------------------------------------
+
+		   mkvirtualenv myproject (nome do seu projeto) --na criação automaticamente e ativado
+
+
+         009.03 -  COMANDO PARA ATIVAR O AMBIENTE VIRTUAL
+                   --------------------------------------
+
+                   workon nome_da_env(nome do ambiente virtual criado)
+
+	           workon app_python
+	           
+	           
+
+			http://localhost:4200/adostec-v1/#/cadastro
+	           
+	           activate
+	           
+
+
+	 009.04 -  COMANDO PARA DESATIVAR O AMBIENTE VIRTUAL
+                   -----------------------------------------
+
+                   deactivate
+                   
+
+'===============================================================================================================
+'                                     010 - INSTALAR DJANGO
+'===============================================================================================================                   
+                   
+
+        010.01 -  pip install django
+
+        010.02 -  pip freeze (verificar a versão e instalação do Django)
+        
+
+'===============================================================================================================
+'                                     011 - SUBIR SERVIDOR PYTHON (IR NO PROMPT)
+'===============================================================================================================  
+
+
+	011.01 - manage.py runserver
+
+	cd C:\Users\Ronaldo\adostec\adostec_back_python\adostec_python\ruanapp>
+
+
+
+         C:\Users\Ronaldo\adostec\adostec_backend\adotec_env\Scripts
+
+	http://localhost:4200/adostec-v1/#/login
+	
+	
+'===============================================================================================================
+'                                     012 - CRIAR BANCO DE DADOS
+'=============================================================================================================== 
+	
+		ADM usuario: postgres
+		Senha: conde2021
+		
+		manage.py createsuperuser (Criação de usuario pela maquina virtual)
+		
+		pip install psycopg2-binary
+		
+		pip install phython-decouple
+		
+		pip desinstall phython-decouple
+		
+		
+		CREATE DATABASE adsappdb;
+		CREATE USER adsappuser WITH PASSWORD 'ads123';
+		
+		ALTER ROLE adsappuser SET client_encoding TO 'utf8';
+		ALTER ROLE adsappuser SET default_transaction_isolation TO 'read committed';
+		ALTER ROLE adsappuser SET timezone TO 'UTC';
+		
+		
+		
+		CREATE DATABASE ruanappdb;
+		CREATE USER ruanappuser WITH PASSWORD 'ruan123';
+		
+		ALTER ROLE ruanappuser SET client_encoding TO 'utf8';
+		ALTER ROLE ruanappuser SET default_transaction_isolation TO 'read committed';
+		ALTER ROLE ruanappuser SET timezone TO 'UTC';
+		
+
+'===============================================================================================================
+'                                     013 - ATUALIZAR AS MIGRAÇÕES NO PYTHON
+'=============================================================================================================== 
+
+		013.01 - manage.py migrate
+		
+		013.01 - manage.py makemigrations
+		
+	
+		
+'===============================================================================================================
+'                                     014 - CRIAR SECRET_KEY
+'=============================================================================================================== 
+
+
+		https://djecrety.ir/
+
+
+
+
+'===============================================================================================================
+'                                015 - SITE E CONFIGURACOES DICAS LOCAIS PYTHON
+'=============================================================================================================== 
+
+
+
+		pip install Pillow (Biblioteca para arquivos de imagens)
+		
+		https://docs.djangoproject.com/en/2.2/ref/forms/ (APIs de formulários - Indice da documentação)
+		
+		docs.djangoproject.com/en/2.2/topics/auth
+		
+		https://getbootstrap.com/docs/4.3/examples/navbars/
+		
+		https://getbootstrap.com/docs/4.3/components/forms
+		
+		https://select2.org/getting-started/installation
+		
+		view-source:https://getbootstrap.com/docs/4.3/examples/sign-in/
+		
+		https://getbootstrap.com/docs/4.3/getting-started/download/
+		
+		getbootstrap.com/docs/4.3/content/tables/
+		
+		docs.djangoproject.com/en/2.2/topics/files/
+		
+		
+		
+		https://getbootstrap.com/docs/4.3/layout/grid/
+		
+		view-source:getbootstrap.com/docs/4.3/examples/navbars/
+		
+		view-source:getbootstrap.com/docs/4.3/components/alerts/
+		
+		https://getbootstrap.com/docs/4.3/components/buttons/
+		
+		https://jqueryui.com/
+		
+		
+		
+		TIME_ZONE = 'America/Sao_Paulo'
+		
+		def tasks_list(request):
+		template_name = 'tasks/tasks_list.html'
+		context = {}
+		tasks = Task.objects.filter(owner=request.user).exclude(status='CD')
+		context['tasks'] = tasks
+		return render(request, template_name)
+		
+		
+'===============================================================================================================
+'                                016 - SENHAS
+'=============================================================================================================== 		
+		
+
+		MERCADO LIVRE
+		-------------
+		LOGIN.: conde.ronaldo@gmail.com
+		SENHA.: perez2021
+		
+		CURSOS UDEMY
+		------------
+		LINK.: Udemy.com
+		LOGIN.: Adairoc@gmail.com
+
+https://www.udemy.com/share/10351O3@-5yabStfsIFWAoCDaG7SnJn8-GSbSHsuvkBru-rY8wplDHKwsvYQFZ_-iXMMEt4JIQ==/
+
+@ivan10Eu
+		
+
+'===============================================================================================================
+'                                100 - PENDENCIAS
+'=============================================================================================================== 		
+		
+		100.1 - Corrigir tradução do componente pageheader
+		100.2 - table_component.html
+		100.3 - toaster	
+		
+		
+'===============================================================================================================
+'                                101 - HISTORICO ANTERIOR
+'=============================================================================================================== 
+
+
+CRIAR AMBIENTE
+==============
+
+receitas@dpsp.com.br
+
+penha4@dpsp.com.br
+
+
+43742583
+
+1 PASSO   INSTALAÇÃO DO PYTHON
+          =====================
+
+          BAIXAR O PYTHON E FAZER DOWNLOAD (Instalar o Python)
+          (https://www.python.org/downloads/)
+
+
+2 PASSO   CRIAR MAQUINA VIRTUAL (IR NO PROMPT)
+          =====================
+
+         2.1 - INSTALAÇÃO DA MAQUINA VIRTUAL
+               -----------------------------
+
+               py -m pip install virtualenvwrapper-win
+
+
+         2.2 - CRIACAO AMBIENTE VIRTUAL (pode ser qq diretorio)
+               ------------------------------------------------
+
+		mkvirtualenv myproject (nome do seu projeto) --na criação automaticamente e ativado
+
+
+         2.3 - COMANDO PARA ATIVAR O AMBIENTE VIRTUAL
+               --------------------------------------
+
+               workon nome_da_env(nome do ambiente virtual criado)
+
+	       workon app_python
+
+
+	 2.4 - COMANDO PARA DESATIVAR O AMBIENTE VIRTUAL
+               --------------------------------------
+
+               deactivate
+
+           
+3 PASSO INSTALAR DJANGO
+        ================
+
+        pip install django
+
+        pip freeze (verificar a versão e instalação do Django)
+
+
+5 PASSO SUBIR SERVIDOR (IR NO PROMPT)
+        ===============
+
+         manage.py runserver
+
+
+pip install psycopg2-binary
+
+
+6 COMANDOS
+  =========
+
+CRIAR BANCO DE DADOS
+--------------------
+
+adm usuario: postgres
+	Senha: conde2021
+
+manage.py createsuperuser (Criação de usuario pela maquina virtual)
+
+pip install psycopg2-binary
+
+pip install phython-decouple
+
+pip desinstall phython-decouple
+
+
+CREATE DATABASE todoappdb;
+CREATE USER todoappuser WITH PASSWORD 'conde2021';
+
+ALTER ROLE todoappuser SET client_encoding TO 'utf8';
+ALTER ROLE todoappuser SET default_transaction_isolation TO 'read committed';
+ALTER ROLE todoappuser SET timezone TO 'UTC';
+
+
+
+CREATE DATABASE ruanappdb;
+CREATE USER ruanappuser WITH PASSWORD 'ruan123';
+
+ALTER ROLE ruanappuser SET client_encoding TO 'utf8';
+ALTER ROLE ruanappuser SET default_transaction_isolation TO 'read committed';
+ALTER ROLE ruanappuser SET timezone TO 'UTC';
+
+
+
+ATUALIZAR AS MIGRAÇÕES NO PYTHON
+--------------------------------
+
+messages.warning]]]]WARNING: 'alert-warning',
+
+
+
+manage.py migrate
+
+manage.py makemigrations
+
+
+URL CRIAR SECRET_KEY
+===================
+
+https://djecrety.ir/
+
+
+CRIAR PROJETO
+-------------
+
+../manager.py/startapp/core
+
+manage.py startapp accounts (Criação App Accounts)
+
+pip install Pillow (Biblioteca para arquivos de imagens)
+
+https://docs.djangoproject.com/en/2.2/ref/forms/ (APIs de formulários - Indice da documentação)
+
+docs.djangoproject.com/en/2.2/topics/auth
+
+https://getbootstrap.com/docs/4.3/examples/navbars/
+
+https://getbootstrap.com/docs/4.3/components/forms
+
+https://select2.org/getting-started/installation
+
+view-source:https://getbootstrap.com/docs/4.3/examples/sign-in/
+
+https://getbootstrap.com/docs/4.3/getting-started/download/
+
+getbootstrap.com/docs/4.3/content/tables/
+
+docs.djangoproject.com/en/2.2/topics/files/
+
+
+
+https://getbootstrap.com/docs/4.3/layout/grid/
+
+view-source:getbootstrap.com/docs/4.3/examples/navbars/
+
+view-source:getbootstrap.com/docs/4.3/components/alerts/
+
+https://getbootstrap.com/docs/4.3/components/buttons/
+
+https://jqueryui.com/
+
+
+
+TIME_ZONE = 'America/Sao_Paulo'
+
+    def tasks_list(request):
+        template_name = 'tasks/tasks_list.html'
+        context = {}
+        tasks = Task.objects.filter(owner=request.user).exclude(status='CD')
+        context['tasks'] = tasks
+        return render(request, template_name)
+
+
+DEPLOY
+=========
+
+
+pip install gunicorn
+pip install django-heroku
+pip freeze > requirements.txt
+
+heroku login
+
+heroku create infinite-todoapp
+
+heroku addons:create heroku-postgresql:hobby-dev
+
+git add.
+git commit -m "Deploy inicial"
+git push heroku master
+
+heroku run python manage.py migrate --app infinite-todoapp
+heroku run python manage.py createsuperuser --app infinite-todoapp
+
+	
+
+
+
+SENHAS
+========
+
+MERCADO LIVRE
+-------------
+LOGIN.: conde.ronaldo@gmail.com
+SENHA.: perez2021
+
+CURSOS UDEMY
+------------
+LINK.: Udemy.com
+LOGIN.: Adairoc@gmail.com
+SENHA.: @ivan10Eu
+
+
+DRA SONIA
+===========
+24828306
+24827220
+997370311
+
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+
+https://replit.com/languages/python3
+
+CRIACAO MAQUINA VIRTUAL
+===========================
+
+
+===========inicio ambiente wind
+
+--instalando a maquina virtual no prompt
+py -m pip install virtualenvwrapper-win
+
+
+--criando o ambiente virtual (pode ser qq diretorio)
+mkvirtualenv myproject (projeto_python) --na criação automaticamente e ativado
+----<<<<<<<<
+
+>>>>>>>maquina virtual>>>>>>>>>>
+--comando para desativa o ambiente virtual
+deactivate
+
+--comando para ativar o ambiente virtual
+workon nome_da_env(nome do ambiente virtual criado)
+
+<<<<<<<<maquina virtual
+
+================fim ambiente
+
+
+3 criando a maquina virtual
+virtualenv [opções] <ruanapp> (sem versao python) nao recomendado rmvirtualenv  “nome do ambiente”
+
+ficou no root
+source ruanapp/bin/activate
+virtualenv envgas--python='/usr/bin/python3.8' envgas ruanapp -- 
+
+--4 ativando o ambiente virtual (para desativar deactivate/ remover tudo rm -r ruanapp)
+source ruanapp/bin/activate
+
+observação: tive que fazer atualização (python manage.py migrate)
+==========fim ambiente========
+
+
+
+Se cadastro nesses caras, que são referência em power Bi e
+são curso gratis
+https://ead.planilheiros.com.br/
+
+
+
+Ronaldo, apreveita esses cursos aqui, só de curso tem 2000,00 
+Mas por favor não divulgue para ninguem, pq podem perceber que estou
+logando com IP diferentes e pode vir a dá problema
+
+Curso muito bom completo
+https://aprendapowerbi.club.hotmart.com/login
+login: celio.rmnascimento@gmail.com
+senha: riju1995
+
+
+
+https://pro.raizzer.com/wp-login.php?redirect_to=https%3A%2F%2Fpro.raizzer.com%2Fcourses%2Fformacao-microsoft-power-bi%2Flessons%2Fstart%2Ftopic%2Fapresentacao-do-programa-da-formacao%2F
+login: celio.rmnascimento@gmail.com
+MDQyODQwOTU3MTQ=
+
+
+https://powerbisemenrolacao.club.hotmart.com/login
+https://bipro.club.hotmart.com/login
+login: celio.rmnascimento@gmail.com
+senha: riju1995
+
+https://pro.raizzer.com/wp-login.php?redirect_to=https%3A%2F%2Fpro.raizzer.com%2Fcourses%2Fformacao-microsoft-power-bi%2Flessons%2Fstart%2Ftopic%2Fapresentacao-do-programa-da-formacao%2F
+login: celio.rmnascimento@gmail.com
+senha: riju1995
+
+Curso muito bom completo
+https://daxpro.club.hotmart.com/login
+login: celio.rmnascimento@gmail.com
+senha: riju1995
+
+
+https://cursopowerbiprofissional.club.hotmart.com/login
+login: celio.rmnascimento@gmail.com
+senha: riju1995
+
+
+B2W  Analista de dados Jr
+https://www.linkedin.com/jobs/search/?currentJobId=2435765516&pivotType=jymbii
+
+
+L´oreal Analista de dados 
+https://www.linkedin.com/jobs/search/?currentJobId=2445578578&pivotType=jymbii
+
+
+
+'======================================================================================
+'======================================================================================
+
+--instalando o jango (instalacao tem q ser dentro do ambiente virtual ativo)
+pip install django
+--comando pra ver o que foi instalado
+pip freeze
+--para separar a senha do banco ficar oculto.. tem que instalar python-decouple
+pip install python-decouple
+--instalar lib para trabalhar com arquivo 
+pip install Pillow
+--instalar 
+pip install psycopg2-binary
+pip install django-widget-tweaks
+pip install django-crispy-forms
+pip install requests
+
+
+====================================================================================================================
+
+python.exe -m pip install --upgrade pip
+
+django-admin startproject ruanapp
+
+manage.py migrate
+
+manage.py makemigrations
+
+python manage.py createsuperuser
+
+pip install python-decouple
+
+pip install psycopg2
+
+manage.py startapp accounts
+
+pip install djangorestframework
+
+python -m pip install Pillow
+
+python manage.py startapp core
+
+
+1 - npm install -g @angular/cli
+2 - criar projeto ng new nome_projeto
+3 - basta executar o comando: ng serve - (para subir a aplicação)
+4 - ng g c components/table (ou ng generate component)
+5 - na pasta do projeto intalei npm i @ngx-translate/http-loader
+6 - npm i @angular/material
+7 - npm i @angular/cdk
+8 - criar componentes
+ng g c ads-components/tabs
+ng g c ads-components/tabs/tab
+ng g c components/container
+ng g c components/expansion etc
+10 - npm i angular-util
+11 - ng g c components/table/column
+12 - ng generate service
+
+cd\Users\Ronaldo\adostec\adostec_backend\adotec_env\Scripts
+activate
+cd..
+cd\Users\Ronaldo\adostec\adostec_back_python\adostec_python\ruanapp
+python manage.py runserver
+
+Acertar:
+========
+Corrigir tradução do componente pageheader
+table_component.html
+toaster	
+
+'===============================================================================================================
+'                                102 - LIMPEZA NA MAQUINA
+'=============================================================================================================== 
+
+*.tmp, *.bkp, *.chk, ~*.*
+
+del *.tmp/s
+del *.bkp/s
+del *.chk/s
+del ~*.*/s
+
+gpupdate/force
+
+
+'===============================================================================================================
+'                                103 - LINK DE EMPREGOS
+'=============================================================================================================== 
+
+
+'CURSO QUE LEIA ENVIOU
+'=========================================
+
+https://blog.mindmaster.digital/ga-mar22/aula-4/?utm_campaign=LI_GA_MAR22&utm_medium=inscritos&utm_source=whatsapp&utm_term=cpl4&utm_content=inscritos
+
+CURSOS:
+Gestão Agil
+Scrum
+Design thinking
+kanban
+
+
+Cadastrar curriculo na Deloitte (Luan)
+-------------------------------
+https://jobs.jobconvo.com/pt-br/careers/Deloitte/ddf2b2f5-cc30-4503-8ec8-458f9869e2ba/
+
+Login.: conde.ronaldo@gmail.com
+Password.: Perez@1969
+
+Cadastrar curriculo na (Bram Offhore) - Leia
+--------------------------------------
+https://bramoffshore.com.br/
+
+Login.: conde.ronaldo@gmail.com
+Password.: conde@1969
+
+
+Marquinhos Lindinha
+-------------------------------
+https://jobs.gft.com/go/brazil/4412501/
+
+ctctech.com.br
+ 
+
+
+LINK ACADEMIA DO CONCURSO
+--------------------------
+https://www.datascienceacademy.com.br/
+
+40042700 1 7
+
+
+diagnostico, qudro clinico atual, programaçao terapeutico e indicacao para psicoterapia
+
+
+
+
+'===============================================================================================================
+'                                104 - CARTEIRINHAS DO PLANO DE SAUDE
+'===============================================================================================================
+
+Protocolo de Cancelamento Samoc.: 34367620220405669870
+
+Numero da Carteirinha.: 4110115252147502 (ANTONIO FERNANDO PINTO)
+
+Numero da Carteirinha.: 4110115252147300 (RONALDO CONDE PINTO)
+
+Numero da Carteirinha.: 4110115252147401 (MARIA ALINE CONDE PINTO)
+
+
+Protocolo de Atendimento Leve Saude (Pessoa Fisica): 42233920220405599705
+
+Acesso Leve Saude (Empresa): Login.: 45135021000152 / Senha.: conde1969 (MUDAR45135021000152)
+
+
+'===============================================================================================================
+'                                105 - REFERENTE A EMPRESA
+'===============================================================================================================
+
+Nome da Empresa ....................... .: R. Conde Soluções Ltda 
+CNPJ .................................. .: 45.135.021/0001-52
+Fatura ................................ .: R$ 1.592,63 (R$ 630,25 (R$ 1.260,50) / R$ 302,13) 
+
+
+
+'===============================================================================================================
+'                                106 - CURSO GIT
+'===============================================================================================================
+
+1) Instalação do GitHub: https://git-scm.com/download
+
+Após instalação do Git segue seguintes comandos:
+	1) git config --global user.name "Ronaldo Conde" (Configuração do Usuário)
+	2) git config --global user.email "conde.ronaldo@gmail.com" (Configuração do Email)
+	3) git config --global core.editor notepad (Configuração do Editor)
+	4) git config user.name (Verificar usuário configurado)
+	5) git config user.email (Verificar e-mail configurado)
+	6) git config --list (Verificar configuração do Git)
+	7) mkdir git-course (Criar pasta)
+	8) git init (Inicializar GIT)
+	9) ls (lista arquivos)
+	10) git status (Serve para reportar com está meu repositório)
+	11) git add Help_Procedimentos.txt (Será adicionado arquivo no GIT)
+
+
+
+
+'===============================================================================================================
+'                                XXX - XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+'===============================================================================================================
+
+
+
+https://www.youtube.com/watch?v=bbx9BAMelN0
+
+Para receber todas as novidades e bônus exclusivos do Intensivão de SQL, entre no Grupo de WhatsApp do Intensivão: 
+https://eventoshashtag.herokuapp.com/...
+
+----------------------
+
+Para chamar os amigos para assistir essa aula, é só copiar e enviar esse link: https://youtu.be/bbx9BAMelN0
+
+----------------------
+
+Para fazer o download do Arquivo da Aula: Para fazer o download dos Arquivos da Aula: https://drive.google.com/drive/folder...
+
+Vídeo para Instalação do MySQL: https://youtu.be/UJ3ljw5uuEM
+
+----------------------
+
+Para assistir a 3ª aula:
+https://youtu.be/l89moXSrMKM
+
+
+
+Ola Dra, Boa noite. Para podermos receber reembolso da Dra. Daniele, o Bradesco pediu relatório com seguintes pontos:
+- Diagnóstico
+- Quadro Clinico Atual
+- Programação Terapeutica
+- Indicação para Psicoterapia
+
+113300311
+
+
+
+
+
+
+
+
