@@ -874,7 +874,23 @@ Após instalação do Git segue seguintes comandos:
 	9) ls (lista arquivos)
 	10) git status (Serve para reportar com está meu repositório)
 	11) git add Help_Procedimentos.txt (Será adicionado arquivo no GIT)
-	12) git commit -m "Atualização Comandos Curso Git"   
+	12) git commit -m "Atualização Comandos Curso Git" (Criar versão no Git)
+	13) git log (Verificar os logs)
+	14) git log --decorate (Verifica algumas informações mais detalhadas do log)
+	15) git log --author "Ronaldo" (Verificar todas as versões geradas pelo autor indica entre "")
+	16) git shortlog (Informa historico das versões)
+	17) git shortlog -sn (Informa quantidade commit/nome)
+	18) git --graph (Informa em forma gráfica o que está acontecendo)
+	19) git show 40c0c121219503c2a5414c1b7984ee64f344b370 (Verifico que foi alterado na versão)
+	20) git diff (Mostrará todas modificações feitas)
+	21) git diff --name-only (Informa nome do arquivo que foi modificado)
+	22) git commit -am "Atualização Comandos Curso Git_Versao" (Consegue atualizar todos arquivos modificados)
+	23) git checkout Help_Procedimentos.txt (Volta versao anterior)
+	24) git reset HEAD Help_Procedimentos.txt (Retirar da arquivo da fila)
+	25) git reset --soft 2184719365e16df04f1c52b50e8b2774d62f836c
+	26) git reset --mixed 2184719365e16df04f1c52b50e8b2774d62f836c
+	27) git reset --hard ea8ee688127d38bd978731a4edbdc1df1e1e0535 (Vai eliminar todas versões para frente)
+
 
 
 
